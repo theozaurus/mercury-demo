@@ -21,11 +21,3 @@ test:
   database: mercury_demo_developement
   username: root
   password:
-
-production: 
-  adapter: postgresql
-  encoding: utf8
-  host: localhost
-  database: mercury_demo_production
-  username: root
-  password: 
