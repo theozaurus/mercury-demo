@@ -9,7 +9,7 @@ gem 'rails', '3.1.0.rc4'
 # gem 'sqlite3'
 gem 'pg'
 
-gem 'paperclip', git: 'git://github.com/thoughtbot/paperclip.git'
+gem 'paperclip'
 gem 'formtastic', git: 'git://github.com/justinfrench/formtastic.git'
 
 # Asset template engines
