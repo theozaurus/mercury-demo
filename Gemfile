@@ -26,3 +26,7 @@ gem 'heroku'
 group :development do
   gem 'thin'
 end
+
+group :production do
+  gem 'therubyracer-heroku'
+end
