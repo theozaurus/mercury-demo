@@ -5,6 +5,25 @@ GIT
     formtastic (2.0.0.rc2)
       rails (~> 3.0)
 
+GIT
+  remote: git@github.com:jejacks0n/mercury.git
+  revision: 6578c1e7e1c72c0e1deda955a88c60cc277a372e
+  specs:
+    mercury-rails (0.1.0)
+      coffee-script
+      em-hiredis
+      em-websocket
+      eventmachine
+      formtastic
+      haml
+      haml-rails
+      jeweler
+      mysql2
+      paperclip
+      rails (= 3.1.0.rc4)
+      sass
+      uglifier
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -38,6 +57,7 @@ GEM
       activesupport (= 3.1.0.rc4)
     activesupport (3.1.0.rc4)
       multi_json (~> 1.0)
+    addressable (2.2.6)
     arel (2.1.1)
     bcrypt-ruby (2.1.4)
     builder (3.0.0)
@@ -47,17 +67,33 @@ GEM
     coffee-script-source (1.1.1)
     configuration (1.2.0)
     daemons (1.1.3)
+    em-hiredis (0.1.0)
+      hiredis (~> 0.3.0)
+    em-websocket (0.3.0)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
     erubis (2.7.0)
     eventmachine (0.12.10)
     execjs (1.1.3)
       multi_json (~> 1.0)
+    git (1.2.5)
     haml (3.1.2)
+    haml-rails (0.3.4)
+      actionpack (~> 3.0)
+      activesupport (~> 3.0)
+      haml (~> 3.0)
+      railties (~> 3.0)
     heroku (2.3.0)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
       term-ansicolor (~> 1.0.5)
     hike (1.1.0)
+    hiredis (0.3.2)
     i18n (0.6.0)
+    jeweler (1.6.2)
+      bundler (~> 1.0)
+      git (>= 1.2.5)
+      rake
     jquery-rails (1.0.11)
       railties (~> 3.0)
       thor (~> 0.14)
@@ -71,6 +107,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     multi_json (1.0.3)
+    mysql2 (0.3.6)
     paperclip (2.3.11)
       activerecord (>= 2.3.0)
       activesupport (>= 2.3.2)
@@ -139,6 +176,7 @@ DEPENDENCIES
   heroku
   jquery-rails
   json
+  mercury-rails!
   paperclip
   pg
   rails (= 3.1.0.rc4)
