@@ -1,0 +1,10 @@
+- name = "tweets_#{rand(10000)}"
+%div.tweets{ id: name } Loading...
+:javascript
+  getTwitters('#{name}', {
+    id: '#{params[:options][:id]}',
+    count: parseInt('#{params[:options][:count]}'),
+    enableLinks: #{params[:options][:links] != '0' ? 'true' : 'false'},
+    clearContents: true,
+    template: '<div class="tweet"><img src="%user_profile_image_url%" width="40" height="40" align="left"/><span>%text%<br/><a href="http://twitter.com/%user_screen_name%/statuses/%id_str%/">%time%</a></span></div>'
+  });

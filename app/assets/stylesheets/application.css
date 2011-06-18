@@ -198,7 +198,7 @@ input.text {
   margin-left: 60px;
   font-weight: 600;
 }
-#aspects .aspect p {
+#aspects .aspect h4 {
   margin: 5px 20px 0 60px;
   font-size: .9em;
 }
@@ -336,4 +336,25 @@ input.text {
   border: none;
   height: 15px;
   background: url(/assets/hr.png) no-repeat center top;
+}
+
+
+/* Additional styles
+ *----------------------------------------------------------------------------*/
+.tweets ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.tweets li {
+  border-bottom: 1px dotted #CCC;
+  padding: 5px 0;
+}
+.tweets li img {
+  margin: 0 10px 5px 0;
+}
+.tweets li span {
+  display: block;
+  margin-left: 50px;
+  min-height: 42px;
 }

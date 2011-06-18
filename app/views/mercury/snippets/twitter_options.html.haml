@@ -1,0 +1,21 @@
+- @passed_options = params[:options] || {}
+= semantic_form_for 'options', { html: { style: 'width:600px' } } do |f|
+
+  .mercury-modal-pane-container
+    .mercury-modal-pane
+
+      = f.inputs do
+        = f.input :id, required: true, label: 'Twitter Username',
+          input_html: {value: @passed_options[:id] || 'whitehouse'}
+
+      = f.inputs 'Options' do
+        = f.input :count, required: true, label: 'Max Tweets',
+          input_html: {value: @passed_options[:count] || 5}
+
+        = f.input :links, as: :boolean, required: false, label: 'Autolink links in tweets',
+          input_html: {checked: @passed_options[:links] ? @passed_options[:links] != '0' : true}
+
+  .mercury-modal-controls
+
+    = f.buttons do
+      = f.commit_button 'Insert Snippet'

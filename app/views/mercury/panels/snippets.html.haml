@@ -1,0 +1,10 @@
+.mercury-snippet-panel
+
+  .filter
+    %input.filter{ :type => 'text' }
+
+  %ul
+    %li{ 'data-filter' => "tweets, twitter" }
+      = image_tag('mercury/default-snippet.png', 'data-snippet' => 'twitter' )
+      %h4 Twitter Block
+      .description Allows for tweets to be embedded in the page.  Enter a user, and select from other various options.
