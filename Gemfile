@@ -3,7 +3,7 @@ source :rubygems
 gem 'rails', '3.1.0.rc4'
 
 #gem 'mercury-rails', path: '../mercury'
-gem 'mercury-rails', git: 'git@github.com:jejacks0n/mercury.git'
+gem 'mercury-rails', git: 'git://github.com/jejacks0n/mercury.git'
 
 # Database
 gem 'pg'
