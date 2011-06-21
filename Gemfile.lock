@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jejacks0n/mercury.git
-  revision: 0896d82ccbd62a83e39b37b2e943a7b251a4a306
+  revision: 6456cfe9c4a770a6b14c40c4568a5d80d83c0d02
   specs:
     mercury-rails (0.1.1)
       coffee-script
@@ -123,10 +123,10 @@ GEM
       railties (~> 3.1.0.rc1)
       sass (>= 3.1.2)
       sprockets (>= 2.0.0.beta.9)
-    sprockets (2.0.0.beta.10)
-      hike (~> 1.0)
+    sprockets (2.0.0.beta.11)
+      hike (~> 1.1)
       rack (~> 1.0)
-      tilt (!= 1.3.0, ~> 1.1)
+      tilt (~> 1.1, != 1.3.0)
     term-ansicolor (1.0.5)
     therubyracer-heroku (0.8.1.pre3)
     thin (1.2.11)
