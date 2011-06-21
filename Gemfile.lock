@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jejacks0n/mercury.git
-  revision: 529e6daacc8fea66d8506b2f4505f93c88f207f9
+  revision: 0896d82ccbd62a83e39b37b2e943a7b251a4a306
   specs:
     mercury-rails (0.1.1)
       coffee-script
@@ -13,7 +13,7 @@ GIT
 
 GIT
   remote: git://github.com/justinfrench/formtastic.git
-  revision: 17053dcbdc5d97dd0a9a96263a49e02dad4d3440
+  revision: 4431bed699c4277fd8856fdaf3031cc78ec27334
   specs:
     formtastic (2.0.0.rc3)
       rails (~> 3.0)
@@ -74,7 +74,7 @@ GEM
     jquery-rails (1.0.11)
       railties (~> 3.0)
       thor (~> 0.14)
-    json (1.5.2)
+    json (1.5.3)
     launchy (0.4.0)
       configuration (>= 0.0.5)
       rake (>= 0.8.1)
