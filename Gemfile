@@ -1,20 +1,20 @@
 source :rubygems
 
-gem 'rails', '3.1.0.rc4'
+gem 'rails', '~> 3.1.0'
 
 #gem 'mercury-rails', path: '../mercury'
-gem 'mercury-rails', git: 'git://github.com/jejacks0n/mercury.git'
+gem 'mercury-rails', git: 'git://github.com/theozaurus/mercury.git'
 
 # Database
-gem 'pg'
+gem 'mysql2'
 
 # Assets and forms
 gem 'paperclip'
-gem 'formtastic', git: 'git://github.com/justinfrench/formtastic.git'
+gem 'formtastic'
 
 # Asset template engines
 gem 'json'
-gem 'sass-rails', "~> 3.1.0.rc"
+gem 'sass-rails'
 gem 'coffee-script'
 gem 'uglifier'
 gem 'haml'

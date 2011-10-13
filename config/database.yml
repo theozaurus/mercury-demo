@@ -1,5 +1,5 @@
 development:
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
   host: localhost
   database: mercury_demo_developement
@@ -7,7 +7,7 @@ development:
   password:
 
 test:
-  adapter: postgresql
+  adapter: mysql2
   encoding: utf8
   host: localhost
   database: mercury_demo_developement
